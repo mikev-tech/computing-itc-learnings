@@ -1,0 +1,230 @@
+* {
+    font-family: "Poppins", sans-serif;
+    /* text-transform: lowercase; */
+}
+
+body {
+    margin: 0;
+    background-color: #FAFFE1;
+}
+
+header {
+    /* border: solid red 1px; */
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav.container {
+    /* border: solid black 1px; */
+    width: 80%;
+
+    display: flex;
+    justify-content: space-evenly; /* main axis alignment of contents, horizontally */
+    align-items: center; /* cross axis (vertically) aligns items, top to bottom*/
+}
+
+/* nav > a {
+    border: solid green 1px;
+} */
+
+footer {
+    /* border: solid black 1px; */
+    height: 80px;
+    background-color: #FF4C4C;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+nav > a {
+    color: black;
+}
+
+nav > a:hover {
+    color: #FF4C4C;
+}
+
+.button {
+    color: white !important;
+}
+
+.button:hover {
+    text-decoration-line: underline;
+}
+
+footer > a {
+    color: white;
+}
+
+footer > a:hover {
+    text-decoration-line: underline;
+}
+
+p, a {
+    font-size: 20px;
+    /* border: solid black 1px; */
+}
+
+h1, h2, h3 {
+    font-size: 32px;
+    /* border: solid black 1px; */
+}
+
+/* portfolio_templae CSS */
+
+p {
+    margin: 10px 0;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+.portfolio-hero {
+    /* border: solid black 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 60px;
+}
+
+/* .porfolio-hero-bg-image {
+    border: solid pink 1px;
+} */
+
+.banner {
+    width: 100vw;
+    height: 320px;
+}
+
+.slug-left {
+    align-self: baseline;
+    margin: 20px 80px;
+    font-size: 16px;
+}
+
+.main-article-section {
+    background-color: #FFDE4D;
+}
+
+.design-1 {
+    /* border: solid sienna 1px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+    padding: 40px 80px;
+}
+
+/* .design-1 > div, .design-2 > div, .design-2 > div > div  {
+    border: solid black 1px;
+} */
+
+.design-1-image {
+    height: 320px;
+    width: 400px;
+
+    border-radius: 6px;
+}
+
+.design-2 {
+    /* border: solid sienna 1px; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 80px;
+}
+
+.design-2-column-1 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-tracks: center;
+}
+
+.design-2-image {
+    height: 240px;
+    width: 320px;
+
+    border-radius: 6px;
+}
+
+.design-3 {
+    display: flex;
+    gap: 20px;
+    padding: 40px 80px;
+}
+
+/* .design-3, .design-3 > div, .design-3 > div > ul, .design-3 > div > ul li {
+    border: solid black 1px;
+} */
+
+.design-3-col-1, .design-3-col-2 {
+    flex-basis: 50%;
+}
+
+.design-3 > div > ul li {
+    margin-left: 20px;
+    padding: 6px;
+}
+
+/* .design-4 class */
+
+.design-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: solid black 2px;
+    padding: 12px;
+}
+
+.row-heading {
+    font-weight: bold;
+}
+
+.references {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+
+.references > h4 {
+    margin: 0;
+}
+
+.references > ul li {
+    margin-left: 20px;
+    padding: 6px;
+}
+
+/* .references, .references > *, .references > * > * {
+    border: solid black 1px;
+} */
+
+/* Additional CSS to portfolio template*/
+main {
+    text-transform: initial;
+}
+
+.design-3 > div > ul li {
+    font-size: 20px;
+}

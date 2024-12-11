@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<head>
+    <title>Portfolio Design Templates</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+     <link rel="stylesheet" href="./css/portfolio-styling.css">
+
+    <!-- I found Google Fonts Embed Online Resources  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+         * {
+            font-family: "Poppins", sans-serif;
+            text-transform: lowercase;
+        }
+
+        body {
+            margin: 0;
+            background-color: #FAFFE1;
+        }
+
+        header {
+            border: solid red 1px;
+            height: 160px;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        nav.container {
+            border: solid black 1px;
+            width: 80%;
+
+            display: flex;
+            justify-content: space-evenly; /* main axis alignment of contents, horizontally */
+            align-items: center; /* cross axis (vertically) aligns items, top to bottom*/
+        }
+
+        nav > a {
+            border: solid green 1px;
+        }
+
+        footer {
+            border: solid black 1px;
+            height: 80px;
+            background-color: #FF4C4C;
+            color: white;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer > a {
+            color: white;
+        }
+
+        p, a {
+            font-size: 20px;
+            border: solid black 1px;
+        }
+
+        h1, h2, h3 {
+            font-size: 32px;
+            border: solid black 1px;
+        }
+
+        /* portfolio_templae CSS */
+
+        p {
+            margin: 10px 0;
+        }
+
+        h3 {
+            margin: 20px 0;
+        }
+
+        .portfolio-hero {
+            border: solid black 1px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            padding-bottom: 60px;
+        }
+
+        .porfolio-hero-bg-image {
+            border: solid pink 1px;
+            /* height: 200px; */
+        }
+        
+        .banner {
+            width: 100vw;
+            height: 320px;
+        }
+
+        .slug-left {
+            align-self: baseline;
+            margin: 20px 80px;
+            font-size: 16px;
+        }
+        
+        .main-article-section {
+            background-color: #FFDE4D;
+        }
+
+        .design-1 {
+            border: solid sienna 1px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+
+            padding: 40px 80px;
+        }
+
+        .design-1 > div, .design-2 > div, .design-2 > div > div  {
+            border: solid black 1px;
+        }
+
+        .design-1-image {
+            height: 320px;
+            width: 400px;
+        }
+
+        .design-2 {
+            border: solid sienna 1px;
+            display: flex;
+            flex-direction: column;
+
+            padding: 40px 80px;
+        }
+
+        .design-2-column-1 {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+            align-tracks: center;
+        }
+
+        .design-2-image {
+            height: 240px;
+            width: 320px;
+        }
+
+        .design-3 {
+            display: flex;
+            gap: 20px;
+            padding: 40px 80px;
+        }
+
+        .design-3, .design-3 > div, .design-3 > div > ul, .design-3 > div > ul li {
+            border: solid black 1px;
+        }
+
+        .design-3-col-1, .design-3-col-2 {
+            flex-basis: 50%;
+        }
+
+        .design-3 > div > ul li {
+            margin-left: 20px;
+            padding: 6px;
+        }
+
+        /* .design-4 class */
+
+        .design-4 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 80px;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: solid black 2px;
+            padding: 12px;
+        }
+
+        .row-heading {
+            font-weight: bold;
+        }
+
+        .references {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 80px;
+        }
+
+        .references > h4 {
+            margin: 0;
+        }
+
+        .references > ul li {
+            margin-left: 20px;
+            padding: 6px;
+        }
+
+        .references, .references > *, .references > * > * {
+            border: solid black 1px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header class="parent-container">
+        <nav class="container">
+            <a href="/">home</a>
+            <a href="#portfolio-1">portfolio i</a>
+            <a href="#">portfolio ii</a>
+            <a href="#">portfolio iii</a>
+            <a href="#">portfolio iv</a>
+            <a href="#">portfolio v</a>
+            <a href="#">portfolio vi</a>
+            <a href="#">USC website</a>
+        </nav>
+    </header>
+
+    <div class="portfolio-hero">
+        <div class="porfolio-hero-bg-image">
+            <img src="./images/laptop-with-glowing-screen-table-dark-top-view-copy-space.jpg" alt="" class="banner">
+        </div>
+        <p class="slug-left">slug: / home / portfolio#</p>
+        <h1>Types of Computers</h1>
+    </div>
+
+
+    <main class="main-article-section">
+        <article class="design-1">
+            <div>
+                <h3>Topic Title</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Et molestiae optio et facilis repellendus et suscipit ratione sit rerum harum qui repellendus reiciendis. Aut itaque consequatur sit rerum quam sit ducimus quas vel voluptas consequuntur.</p>
+                <p>Non alias aperiam non voluptate velit ab esse velit et galisum deserunt. Est sint numquam sit necessitatibus impedit et eius numquam id nihil corporis eum</p>
+            </div>
+            <div class="design-1-column-2">
+                <img src="./images/pexels-junior-teixeira-1064069-2047905.jpg" alt="" class="design-1-image">
+            </div>
+        </article>
+
+        <article class="design-2">
+            <div class="design-2-column-1">
+                <div>
+                    <img src="./images/pexels-junior-teixeira-1064069-2047905.jpg" alt="" class="design-2-image">
+                </div>
+                <div>
+                    <h3>Topic title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+
+        <article class="design-3">
+            <div class="design-3-col-1">
+                <h3>Supercomputers</h3>
+                <ul>
+                    <li>content list</li>
+                    <li>content list</li>
+                    <li>content list</li>
+                    <li>content list</li>
+                    <li>content list</li>
+                </ul>
+            </div>
+            <div class="design-3-col-2">
+                <h3>Mainframe computers</h3>
+                <ul>
+                    <li>content list</li>
+                    <li>content list</li>
+                    <li>content list</li>
+                    <li>content list</li>
+                    <li>content list</li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="design-4">
+            <h3>How types of computers differ?</h3>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Uses</th>
+                    <th>Technologies</th>
+                    <th>Application Field</th>
+                </tr>
+                <tr>
+                    <td class="row-heading">Quantum Computers</td>
+                    <td>Uses advance research calculation</td>
+                    <td>Qubits</td>
+                    <td>Research and Development</td>
+                </tr>
+                <tr>
+                    <td class="row-heading">Super Computers</td>
+                    <td>Uses for calculation of complex data</td>
+                    <td>Bits</td>
+                    <td>Data Centers</td>
+                </tr>
+                <tr>
+                    <td class="row-heading">Mainframe Computers</td>
+                    <td>Uses for servers</td>
+                    <td>Bits</td>
+                    <td>Network of Servers</td>
+                </tr>
+            </table>
+        </article>
+    </main>
+
+    <div class="references">
+        <h4>References</h4>
+        <ul>
+            <li>APA list</li>
+            <li>APA list</li>
+            <li>APA list</li>
+            <li>APA list</li>
+            <li>APA list</li>
+        </ul>
+    </div>
+    <footer>
+        <a href="/">home</a>
+        <a href="#">buy me a pencil</a>
+        <a href="./about_me.html">about me</a>
+    </footer>
+</body>

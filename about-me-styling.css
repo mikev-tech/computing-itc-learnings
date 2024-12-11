@@ -1,0 +1,158 @@
+* {
+    font-family: "Poppins", sans-serif;
+    text-transform: lowercase;
+}
+
+body {
+    margin: 0;
+    background-color: #FAFFE1;
+}
+
+header {
+
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+}
+
+nav.container {
+    width: 80%;
+
+    display: flex;
+    justify-content: space-evenly; /* main axis alignment of contents, horizontally */
+    align-items: center; /* cross axis (vertically) aligns items, top to bottom*/
+}
+
+
+footer {
+    height: 80px;
+    background-color: #FF4C4C;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+nav > a {
+    color: black;
+}
+
+nav > a:hover {
+    color: #FF4C4C;
+}
+
+.button {
+    color: white !important;
+}
+
+.button:hover {
+    text-decoration-line: underline;
+}
+
+footer > a {
+    color: white;
+}
+
+footer > a:hover {
+    text-decoration-line: underline;
+}
+
+p, a {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-size: 32px;
+}
+
+/* about me css */
+div.about-me-hero-section {
+    height: 72vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.hero-content {
+    text-align: center;
+    /* height: 180px; */
+    min-height: 160px;
+    max-height: 400px;
+
+    width: 680px;
+    min-width: 600px;
+    max-width: 800px;
+}
+
+p.about-me-hero-text {
+    font-size: 16px;
+}
+
+div.self-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 720px;
+}
+img.self-pic {
+    width: 100%;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+hr {
+    width: 20%;
+    border: solid #FFB22C 2px;
+}
+
+/* list css */
+
+div.skills-list, div.learnings-list  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 0;
+}
+
+
+.list-titles {
+    margin: 0;
+}
+
+ul li {
+    padding: 6px;
+}
+
+div.connects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 40px 0;
+}
+
+div.socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.socmed-icons {
+    width: 64px;
+    height: auto;
+}

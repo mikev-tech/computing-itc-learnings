@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>
+    <title>ITC Learning Collections!</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- I found Google Fonts Embed Online Resources  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- <style>
+        * {
+            font-family: "Poppins", sans-serif;
+            text-transform: lowercase;
+        }
+
+        body {
+            margin: 0;
+            background-color: #FAFFE1;
+        }
+
+        header {
+            height: 160px;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        footer {
+            height: 80px;
+            background-color: #FF4C4C;
+            color: white;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer > a {
+            color: white;
+        }
+
+        p, a {
+            font-size: 20px;
+        }
+
+        h1, h2, h3 {
+            font-size: 32px;
+            /* border: solid black 1px; */
+        }
+
+        #usc-logo {
+            height: 56px;
+        }
+
+        nav.container {
+            width: 80%;
+
+            display: flex;
+            justify-content: space-evenly; /* main axis alignment of contents, horizontally */
+            align-items: center; /* cross axis (vertically) aligns items, top to bottom*/
+        }
+
+        section.hero-section {
+            height: 72vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div.hero-content {
+            text-align: center;
+            /* height: 180px; */
+            min-height: 160px;
+            max-height: 400px;
+
+            width: 680px;
+            min-width: 600px;
+            max-width: 800px;
+            
+        }
+
+        .portfolio-cards {
+            display: flex;
+            justify-content: center;
+
+            /* padding-top: 40px;
+            padding-bottom: 40px; */
+
+            padding: 40px;
+
+        }
+
+        .portfolio-1-content, .portfolio-3-content, .portfolio-5-content {
+            /* width: 92vw; */
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 2.5em;
+            padding: 60px 40px;
+
+            border-radius: 30px;
+            background-color: #FFB22C;
+        }
+
+        .portfolio-2-content, .portfolio-4-content, .portfolio-6-content {
+            /* width: 92vw; */
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 2.5em;
+            padding: 60px 40px;
+
+            border-radius: 30px;
+            background-color: #FFDE4D;
+        }
+
+        .section-image {
+            width: 360px;
+            height: 280px;
+            border-radius: 28px;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #FF4C4C;
+            color: white;
+            border-radius: 8px;
+        }
+
+        .column-2 {
+            flex-grow: 1;
+        }
+
+    </style> -->
+
+</head>
+<body>
+    <header class="parent-container">
+        <nav class="container">
+            <a href="#">home</a>
+            <a href="#portfolio-1">portfolio i</a>
+            <a href="#portfolio-2">portfolio ii</a>
+            <a href="#portfolio-3">portfolio iii</a>
+            <a href="#portfolio-4">portfolio iv</a>
+            <a href="#portfolio-5">portfolio v</a>
+            <a href="#portfolio-6">portfolio vi</a>
+            <a href="https://usc.edu.ph/">
+                <img src="./images/USC_university_seal.svg.png" alt="University of San Carlos logo" id="usc-logo">
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>'Quick introduction - I'm Mikeh</h1>
+            <p>Let me show you my different learnings I gathered when studying introduction to computing</p>
+            <a href="./about_me.html" class="button">Want to know me?</a>
+        </div>
+    </section>
+
+    <section id="portfolio-1" class="portfolio-cards">
+        <div class="portfolio-1-content">
+            <div class="column-1">
+                <img src="./images/computer science.jpeg" alt="picture" class="section-image">
+            </div>
+            <div class="column-2">
+                <h3>Computer science as discipline</h3>
+                <p>all about using computers to solve problems.</p>
+                <a href="./computer-science-as-a-discipline_portfolio-1.html" class="button">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-2" class="portfolio-cards">
+        <div class="portfolio-2-content">
+            <div class="column-1">
+                <img src="./images/data information.png" alt="picture" class="section-image">
+            </div>
+            <div class="column-2">
+                <h3>Data, Information, and Information System</h3>
+                <p>designed to collect, store, process, and deliver data</p>
+                <a href="./data-information-and-information-system_portfolio-2.html" class="button">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-3" class="portfolio-cards">
+        <div class="portfolio-3-content">
+            <div class="column-1">
+                <img src="./images/number system.png" alt="picture" class="section-image">
+            </div>
+            <div class="column-2">
+                <h3>Number System</h3>
+                <p>methods for representing numeric values within a computer</p>
+                <a href="./number-system_portfolio-3.html" class="button">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-4" class="portfolio-cards">
+        <div class="portfolio-4-content">
+            <div class="column-1">
+                <img src="./images/computer hardware.png" alt="picture" class="section-image">
+            </div>
+            <div class="column-2">
+                <h3>Computer Hardware and Software</h3>
+                <p>components and programs constitute a computer system</p>
+                <a href="./computer-hardware-and-software_portfolio-4.html" class="button">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-5" class="portfolio-cards">
+        <div class="portfolio-5-content">
+            <div class="column-1">
+                <img src="./images/pexels-junior-teixeira-1064069-2047905.jpg" alt="picture" class="section-image">
+            </div>
+            <div class="column-2">
+                <h3>Motherboards</h3>
+                <p>circuit board inside general purpose computing systems</p>
+                <a href="./motherboards_portfolio-5.html" class="button">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio-6" class="portfolio-cards">
+        <div class="portfolio-6-content">
+            <div class="column-1">
+                <img src="./images/quantum-computer.webp" alt="picture" class="section-image">
+            </div>
+            <div class="column-2">
+                <h3>Types of Computers</h3>
+                <p>Evolving of computers</p>
+                <a href="./types-of-computers_portfolio-6.html" class="button">Read more...</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="/">home</a>
+        <a href="#">buy me a pencil</a>
+        <a href="./about_me.html">about me</a>
+    </footer>
+</body>
